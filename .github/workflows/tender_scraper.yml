@@ -2,7 +2,7 @@ name: Tender Scraper Sheets
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # every 5 minutes
+    - cron: '* * * * *' # every 5 minutes
   workflow_dispatch:
 
 jobs:
